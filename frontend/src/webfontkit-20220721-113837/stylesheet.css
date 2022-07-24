@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'ocr_a_extendedregular';
+    src: url('ocraextended-webfont.woff2') format('woff2'),
+         url('ocraextended-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

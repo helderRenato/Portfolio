@@ -1,0 +1,9 @@
+*{
+  font-family:"ocr_a_extendedregular";
+}
+
+html, body{
+  background-color: #444444;
+  scroll-behavior: smooth;
+}
+

@@ -1,0 +1,65 @@
+.NavBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.NavBar__HamburguerMenu{
+    cursor: pointer;
+}
+
+.HamburguerButton{
+    background: none;
+}
+
+#hamburguerMenu img{
+    float: right;
+    cursor: pointer;
+}
+
+#hamburguerMenu{
+    display: none;
+    background-color: rgb(91, 91, 91);
+    position:fixed;
+    right: 0;
+    top: 0;
+    padding: 20px;
+    z-index: 1;
+}
+
+#hamburguerMenu ul{
+    height: 100vh;
+    width: 20vw;
+    margin-top: 100px;
+}
+
+#hamburguerMenu ul li{
+    list-style: none;
+    color: #fff;
+    padding: 15px;
+    text-align: end;
+}
+
+#hamburguerMenu ul li a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+#hamburguerMenu ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+@media (max-width: 711px) {
+    .NavBar__logo2{
+        display: none;
+    }
+}
+
+@media (max-width: 429px) {
+    #hamburguerMenu ul{
+        width: 100vw;
+    }
+}

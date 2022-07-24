@@ -1,0 +1,40 @@
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+form label{
+    color: #fff;
+    margin-top: 30px;
+}
+form input{
+    border-radius: 10px;
+    border: none;
+    max-width: 500px;
+    width: 100%;
+    height: 4.5vh;
+    padding: 5px;
+    outline: none;
+}
+
+form textarea{
+    border-radius: 10px;
+    border: none;
+    max-width: 500px;
+    width: 100%;
+    height: 300px;
+    resize: none;
+    padding: 10px;
+    outline: none;
+}
+
+form button{
+    background: #ADABAB;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    margin-top: 20px;
+}

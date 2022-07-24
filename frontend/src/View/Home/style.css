@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+#Home{
+    padding: 10px;
+}
+
+/* WELCOME */
+#Home__Welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+#Home__Welcome > p{
+    font-weight: 400;
+    font-size: 8vh;
+    line-height: 66px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+#Home__Welcome div{
+    display: flex;
+}
+#Home__Welcome div p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#Home__Welcome div p strong{
+    color: #0085FF; 
+}
+
+#Home__Welcome a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 60px;
+    border: none;
+    width: 200px;
+    margin-top: 70px;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    color: #000;
+}
+
+#Home__Welcome a:hover{
+    transition: 0.5s;
+    background-color: #e2e2e2;
+}
+
+#Home__Welcome a img{
+    margin-left: 10px;
+}
+/*END WELCOME*/
+
+
+/*Projects*/
+#Home__Projects{
+   height: 100vh;
+}
+
+#Home__Projects > div h1{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 6vh;
+    line-height: 50px;    
+    border-bottom: 5px solid #FFFFFF;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#Home__Projects > div a{
+    color: #0085FF;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+#Home__Projects > div a:hover{
+    text-decoration: underline;
+}
+
+.HorizontalScroll{
+    white-space: nowrap;
+    overflow-x: scroll;
+    margin: 80px auto;
+    overflow-y: hidden;
+    height: 300px;
+    width: 100%;
+}
+
+.HorizontalScroll .image{
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    
+}
+
+.HorizontalScroll .image img{
+    display: block;
+    width: 400px;
+    height: 300px;
+}
+
+.imgOverlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    cursor: pointer;
+}
+
+.imgOverlay:hover{
+    opacity: 1;
+    transition: 1s;
+}
+
+.HorizontalScroll{
+    margin: 80px auto;
+}*/
+
+/*End Projects*/
+
+
+/*About Me*/
+#Home__AboutMe{
+    height: 100vh;
+}
+
+#Home__AboutMe h1{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 6vh;
+    line-height: 50px;    
+    border-bottom: 5px solid #FFFFFF;
+    margin-right: 30px;
+    width: 210px;
+    margin-bottom: 100px;
+}
+
+.AboutMe__Text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px auto;
+    width: 50vw;
+}
+
+.AboutMe__Text p{
+    font-weight: 400;
+    font-size: 3vh;
+    line-height: 33px;
+    color: #FFFFFF;   
+    
+}
+
+.AspasE{
+    display: flex;
+    justify-content: flex-end;
+    width: 80vw;
+}
+
+.AspasD{
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+}
+/*End About Me*/
+
+/*Lets work together*/
+#Home__LetsWorkTog{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+}
+
+#Home__LetsWorkTog span{
+    text-align: center;
+}
+#Home__LetsWorkTog span a{
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 8vh;
+    line-height: 66px;
+    color: #FFFFFF;
+    margin: 10px;
+    text-decoration: none;
+}
+
+#Home__LetsWorkTog span img{
+    margin-left: 10px;
+}
+
+#Home__LetsWorkTog p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: center;
+    color: #0085FF;
+}
+/*End lets work t*/
+
+/*Media*/
+@media (max-width: 449px){
+    #Home__Welcome div img{
+        display: none; 
+    }      
+}
+
+@media (max-width: 610px){
+    .AboutMe__Text p{
+        font-size: 10px;
+    } 
+}
