@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.4c261ccc.css",
+    "main.js": "/Portfolio/static/js/main.2d564957.js",
+    "static/media/projeto4.png": "/Portfolio/static/media/projeto4.1d8314fdd1fecac8da31.png",
+    "static/media/projeto1.png": "/Portfolio/static/media/projeto1.ead25602dee964ee69b5.png",
+    "static/media/logo2.svg": "/Portfolio/static/media/logo2.f31b1ae1aa197a81bbe581496544009e.svg",
+    "static/media/CVHelder.pdf": "/Portfolio/static/media/CVHelder.ca9bb896ea4f29a97195.pdf",
+    "static/media/projeto3.png": "/Portfolio/static/media/projeto3.f20a1685164bd3594bdd.png",
+    "static/media/projeto2.png": "/Portfolio/static/media/projeto2.548b6912b2a396f65078.png",
+    "static/media/ocraextended-webfont.woff": "/Portfolio/static/media/ocraextended-webfont.10eac9109a58f908989d.woff",
+    "static/media/ocraextended-webfont.woff2": "/Portfolio/static/media/ocraextended-webfont.f78b97d1f6c369aefac1.woff2",
+    "static/media/logo.svg": "/Portfolio/static/media/logo.d77d2755fdffe54bfa3aa68ec389bfea.svg",
+    "static/media/instagram.svg": "/Portfolio/static/media/instagram.fd51d58f1b06c7432d9dd0dd73e26713.svg",
+    "static/media/letsw.svg": "/Portfolio/static/media/letsw.0bab1a39d55f0b04b2d52b846ad03afd.svg",
+    "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.329a728153f3dd4b32a7a7bfabf46506.svg",
+    "static/media/link.svg": "/Portfolio/static/media/link.ea484fc02c65d50821ff460cd1e20780.svg",
+    "static/media/dowload.svg": "/Portfolio/static/media/dowload.5b8aff741e8f5ac5985ca86c4d1979e2.svg",
+    "static/media/pc.svg": "/Portfolio/static/media/pc.f37c7dc6d80f5f79e20d965ea9326e2b.svg",
+    "static/media/github.svg": "/Portfolio/static/media/github.97af6dc5228d509c4badff2e00eda72e.svg",
+    "static/media/aspasD.svg": "/Portfolio/static/media/aspasD.c6df1526280d3665581f56a49ac3b239.svg",
+    "static/media/aspasT.svg": "/Portfolio/static/media/aspasT.5ad5000517850f07ca8d9efbd4e90d72.svg",
+    "static/media/hamburguerMenu.svg": "/Portfolio/static/media/hamburguerMenu.0ffb718bf7cc5713d8555d22a97a1dd3.svg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/arrow-right.svg": "/Portfolio/static/media/arrow-right.1ccb8d068219f81a4a6430110695f720.svg",
+    "static/media/arrow-left.svg": "/Portfolio/static/media/arrow-left.ae86950458b010c21a3a4d1fc289cee7.svg",
+    "static/media/close.svg": "/Portfolio/static/media/close.2b24ceaf54cbdba80564646ab4a2c464.svg",
+    "main.4c261ccc.css.map": "/Portfolio/static/css/main.4c261ccc.css.map",
+    "main.2d564957.js.map": "/Portfolio/static/js/main.2d564957.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c261ccc.css",
+    "static/js/main.2d564957.js"
+  ]
+}
