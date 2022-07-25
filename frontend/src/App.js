@@ -1,10 +1,10 @@
 import './App.css';
 import './webfontkit-20220721-113837/stylesheet.css'
-import Router from './routes';
+import Home from './View/Home';
 
 function App() {
   return (
-    <Router></Router>
+    <Home></Home>
   );
 }
 
