@@ -38,7 +38,7 @@ export default function NavBar(){
                     <li><a href="/#Home__Welcome" onClick={showhideMenu}>Home</a></li>
                     <li><a href="/#Home__Projects" onClick={showhideMenu}>My Projects</a></li>
                     <li><a href="/#Home__AboutMe" onClick={showhideMenu}>AboutMe</a></li>
-                    <li><a href="/contactme" onClick={showhideMenu}>Get in Touch</a></li>
+                    <li><a href="/#Home__LetsWorkTog" onClick={showhideMenu}>Get in Touch</a></li>
                 </ul>
             </div>
         </>

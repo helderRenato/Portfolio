@@ -42,7 +42,7 @@ export default function Home(){
                 </section>
 
                 {/*My Projects Section*/}
-                <section id = "Home__Projects">
+                <section id = "Home__Projects" data-aos="fade-right">
                     <div>
                         <h1>My Projects</h1>
                         <a href="https://github.com/helderRenato" target="_blank">see all my projects</a>
@@ -77,7 +77,7 @@ export default function Home(){
                 </section>
 
                 {/*About Me */}
-                <section id = "Home__AboutMe">
+                <section id = "Home__AboutMe" data-aos="fade-up" >
                     <h1>About Me</h1>
                     <div className= "AspasD">
                         <img src={aspasT}></img>
@@ -90,9 +90,17 @@ export default function Home(){
                     </div>
                 </section>
 
-                <section id = "Home__LetsWorkTog" >
+                <section id = "Home__LetsWorkTog" data-aos="fade-in" >
                     <p>Do u need a web developer?</p>
-                    <span><a href="/contactme">LETS WORK TOGETHER</a><img src={letsw}></img></span>
+                    <form action="https://formsubmit.co/helder_renatoribeiro@hotmail.com" method="POST">
+                        <label htmlFor="email">Email*</label>
+                        <input type="email" name="email" id = "email" required/>
+
+                        <label htmlFor="message">Message*</label>
+                        <textarea ype="text" name="message" id="message" required></textarea>
+
+                        <button type="submit">Send</button>
+                    </form>
                 </section>
 
                 <Footer></Footer>

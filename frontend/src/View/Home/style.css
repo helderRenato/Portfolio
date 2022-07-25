@@ -190,23 +190,7 @@
     flex-direction: column;
     align-items: center;
     margin: 100px auto;
-}
-
-#Home__LetsWorkTog span{
-    text-align: center;
-}
-#Home__LetsWorkTog span a{
-    cursor: pointer;
-    font-weight: 400;
-    font-size: 8vh;
-    line-height: 66px;
-    color: #FFFFFF;
-    margin: 10px;
-    text-decoration: none;
-}
-
-#Home__LetsWorkTog span img{
-    margin-left: 10px;
+    width: 100%;
 }
 
 #Home__LetsWorkTog p{
@@ -217,6 +201,48 @@
     color: #0085FF;
 }
 /*End lets work t*/
+
+/*Contact me*/
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 50vw;
+}
+
+form label{
+    color: #fff;
+    margin-top: 30px;
+}
+
+form input{
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 4.5vh;
+    padding: 5px;
+    outline: none;
+}
+
+form textarea{
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 300px;
+    resize: none;
+    padding: 10px;
+    outline: none;
+}
+
+form button{
+    background: #ADABAB;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    margin-top: 20px;
+}
 
 /*Media*/
 @media (max-width: 449px){
@@ -230,3 +256,10 @@
         font-size: 10px;
     } 
 }
+
+@media (max-width: 916px){
+    form{
+        width: 100%;
+    }
+}
+
