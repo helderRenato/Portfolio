@@ -22,7 +22,7 @@ export default function NavBar(){
         <>
             <nav className= "NavBar">
                 <div className="NavBar__logo">
-                    <a href="/"><img src={logo}></img></a>
+                    <a href="/Portfolio"><img src={logo}></img></a>
                 </div>
                 <div className="NavBar__logo2">
                     <img src={logo2}></img>

@@ -246,8 +246,8 @@ form button{
 }
 
 form button:hover{
-    transition: 0.5s;
-    background: #bfbfbf;
+    transition: 1s;
+    background: #a3a3a3;
 }
 
 /*Media*/
@@ -265,7 +265,7 @@ form button:hover{
 
 @media (max-width: 916px){
     form{
-        width: 100%;
+        width: 70vw;
     }
 }
 
