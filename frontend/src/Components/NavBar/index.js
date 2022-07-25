@@ -35,10 +35,10 @@ export default function NavBar(){
             <div id="hamburguerMenu">
                 <img src={close} onClick={showhideMenu}></img>
                 <ul>
-                    <li><a href="/#Home__Welcome" onClick={showhideMenu}>Home</a></li>
-                    <li><a href="/#Home__Projects" onClick={showhideMenu}>My Projects</a></li>
-                    <li><a href="/#Home__AboutMe" onClick={showhideMenu}>AboutMe</a></li>
-                    <li><a href="/#Home__LetsWorkTog" onClick={showhideMenu}>Get in Touch</a></li>
+                    <li><a href="/Portfolio/#Home__Welcome" onClick={showhideMenu}>Home</a></li>
+                    <li><a href="/Portfolio/#Home__Projects" onClick={showhideMenu}>My Projects</a></li>
+                    <li><a href="/Portfolio/#Home__AboutMe" onClick={showhideMenu}>AboutMe</a></li>
+                    <li><a href="/Portfolio/#Home__LetsWorkTog" onClick={showhideMenu}>Get in Touch</a></li>
                 </ul>
             </div>
         </>
