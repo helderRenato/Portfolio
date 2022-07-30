@@ -38,7 +38,7 @@ export default function Home(){
                         <p>Im a <strong>Software Developer</strong>, based in Portugal.</p>
                         <img src={pc}></img>
                     </div>
-                    <a href={cv} dowload = "HelderCV.pdf" type="application/pdf" target="_blank" rel="external">Dowload my svg <img src={dowload}></img></a>
+                    <a href={cv} dowload = "HelderCV.pdf" type="application/pdf" target="_blank" rel="external">Dowload my CV<img src={dowload}></img></a>
                 </section>
 
                 {/*My Projects Section*/}
